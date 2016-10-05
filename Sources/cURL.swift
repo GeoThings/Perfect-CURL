@@ -17,6 +17,8 @@
 //===----------------------------------------------------------------------===//
 //
 
+#if os(Linux) || os(OSX)
+
 import cURL
 import PerfectThread
 
@@ -370,3 +372,4 @@ public class CURL {
 	}
 }
 
+#endif
