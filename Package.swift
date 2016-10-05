@@ -24,7 +24,7 @@ let package = Package(
 	targets: [],
 	dependencies: [
 		.Package(url: "https://github.com/PerfectlySoft/Perfect-libcurl.git", majorVersion: 2, minor: 0),
-		.Package(url: "https://github.com/PerfectlySoft/Perfect-Thread.git", majorVersion: 2, minor: 0)
+		.Package(url: "https://github.com/GeoThings/Perfect-Thread.git", majorVersion: 0, minor: 100)
 	],
 	exclude: []
 )
